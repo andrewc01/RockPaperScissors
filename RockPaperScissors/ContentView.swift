@@ -38,15 +38,15 @@ struct ContentView: View {
         
         HStack {
             ForEach(0..<3) { num in
-                Button(choices[num]) {
-                    gameChoice = choices[randomChoice]
-                    userChoice = "\(choices[num])"
-                    userChoiceTapped()
-                }
-                .frame(width: 80, height: 80)
-                .font(.largeTitle)
-                .background(Color.secondary)
-                .clipShape(Circle())
+                    Button(choices[num]) {
+                        gameChoice = choices[randomChoice]
+                        userChoice = "\(choices[num])"
+                        userChoiceTapped()
+                    }
+                    .frame(width: 80, height: 80)
+                    .font(.largeTitle)
+                    .background(Color.secondary)
+                    .clipShape(Circle())
             }
         }
         .padding(.init(top: 0, leading: 0, bottom: 50, trailing: 0))
