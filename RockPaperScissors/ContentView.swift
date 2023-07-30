@@ -105,6 +105,8 @@ struct ContentView: View {
     func resetScore() {
         userScore = 0
         gameScore = 0
+        gameChoice = "Guess what I'll choose"
+        randomChoice = Int.random(in: 0..<3)
     }
 }
 
