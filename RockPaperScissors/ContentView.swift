@@ -47,6 +47,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .background(Color.secondary)
                     .clipShape(Circle())
+                    .padding(.init(top: 0, leading: 10, bottom: 0, trailing: 10))
             }
         }
         .padding(.init(top: 0, leading: 0, bottom: 50, trailing: 0))
