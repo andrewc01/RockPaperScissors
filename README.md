@@ -1,7 +1,7 @@
 # RockPaperScissors
-Simple rock paper scissors game made with SwiftUI
+Simple **Rock Paper Scissors** game made with SwiftUI
 
-### To-dos
-- Animation when tapping button
-- Better UI for score
-- Color highlight for higher score
+### To-dos (No ETA)
+- Add animation to the button when tapped
+- Better UI for the score
+- Different color for higher score
