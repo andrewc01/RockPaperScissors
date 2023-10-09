@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A102BC4A2AD193060077BE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A102BC492AD193060077BE09 /* Assets.xcassets */; };
 		A1B256492A7611C100071B73 /* RockPaperScissorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B256482A7611C100071B73 /* RockPaperScissorsApp.swift */; };
 		A1B2564B2A7611C100071B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2564A2A7611C100071B73 /* ContentView.swift */; };
-		A1B2564D2A7611C300071B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2564C2A7611C300071B73 /* Assets.xcassets */; };
 		A1B256512A7611C300071B73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B256502A7611C300071B73 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A102BC492AD193060077BE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B256452A7611C100071B73 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B256482A7611C100071B73 /* RockPaperScissorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsApp.swift; sourceTree = "<group>"; };
 		A1B2564A2A7611C100071B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1B2564C2A7611C300071B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B2564E2A7611C300071B73 /* RockPaperScissors.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RockPaperScissors.entitlements; sourceTree = "<group>"; };
 		A1B256502A7611C300071B73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,8 +54,8 @@
 			children = (
 				A1B256482A7611C100071B73 /* RockPaperScissorsApp.swift */,
 				A1B2564A2A7611C100071B73 /* ContentView.swift */,
-				A1B2564C2A7611C300071B73 /* Assets.xcassets */,
 				A1B2564E2A7611C300071B73 /* RockPaperScissors.entitlements */,
+				A102BC492AD193060077BE09 /* Assets.xcassets */,
 				A1B2564F2A7611C300071B73 /* Preview Content */,
 			);
 			path = RockPaperScissors;
@@ -127,8 +127,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A102BC4A2AD193060077BE09 /* Assets.xcassets in Resources */,
 				A1B256512A7611C300071B73 /* Preview Assets.xcassets in Resources */,
-				A1B2564D2A7611C300071B73 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
