@@ -72,7 +72,7 @@ struct ContentView: View {
         }
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Reset", role: .destructive, action: resetScore)
-            // Button("Continue", action: keepPlaying) // commented since it functions same as cancel
+            Button("Continue", action: keepPlaying) // commenting it out caused keepPlaying actions disabled
         } message: {
             Text("Your choice: \(userChoice)")
         }
