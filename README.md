@@ -3,17 +3,21 @@ Simple **Rock Paper Scissors** game made with SwiftUI
 
 ## Screenshots
 <img src="Screenshots/main.png" width="250" alt="Main screen of this app">
+
 * This is the main screen of this app.
 * Three buttons which represents Rock, Paper, Scissors
 * Tapping the button will start the game
 
-![When I win](Screenshots/Win.png)
+<img src="Screenshots/Win.png" width="250" alt="When I win">
+
 * Alert showing I won
   
-![When I tie](Screenshots/Tie.png)
+<img src="Screenshots/Tie.png" width="250" alt="When I tie">
+
 * Alert showing I tied
   
-![When I lose](Screenshots/Lose.png)
+<img src="Screenshots/Lose.png" width="250" alt="When I lose">
+
 * Alert showing I lost
 
 
