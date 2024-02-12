@@ -2,7 +2,7 @@
 Simple **Rock Paper Scissors** game made with SwiftUI
 
 ## Screenshots
-![Main screen of this app](Screenshots/main.png)
+<img src="Screenshots/main.png" width="250" alt="Main screen of this app">
 * This is the main screen of this app.
 * Three buttons which represents Rock, Paper, Scissors
 * Tapping the button will start the game
